@@ -4,8 +4,13 @@
 
 Create a service configuration file (e.g. 'primes.yaml'). See file test/java/resource/primes.yaml for an example. As a minumum specify the following:
    
-> 	maxPrimesCount: <default max result size as int>
->     primesAlgoId: <algoid: value 1,2 or 3>
+> 	maxPrimesCount: [default max result size as int]
+>     primesAlgoId: [algoid: value 1,2 or 3]
+
+Example:
+> 	maxPrimesCount: 1000
+>     primesAlgoId: 1
+
 
 Where the value for algoid identifies the prime computation implementation to use:
 
