@@ -8,6 +8,7 @@ Create a service configuration file (e.g. 'primes.yaml'). See file test/java/res
     primesAlgoId: [algoid: value 1,2 or 3]
 
 Example:
+
     maxPrimesCount: 1000
     primesAlgoId: 1
 
