@@ -4,12 +4,12 @@
 
 Create a service configuration file (e.g. 'primes.yaml'). See file test/java/resource/primes.yaml for an example. As a minumum specify the following:
    
-> 	maxPrimesCount: [default max result size as int]
->     primesAlgoId: [algoid: value 1,2 or 3]
+    maxPrimesCount: [default max result size as int]
+    primesAlgoId: [algoid: value 1,2 or 3]
 
 Example:
-> 	maxPrimesCount: 1000
->     primesAlgoId: 1
+    maxPrimesCount: 1000
+    primesAlgoId: 1
 
 
 Where the value for algoid identifies the prime computation implementation to use:
@@ -22,7 +22,7 @@ Where the value for algoid identifies the prime computation implementation to us
 
 Start the REST service by executing the command:
        
-> 	java -jar primeservice-1.0-SNAPSHOT.jar server primes.yaml
+    java -jar primeservice-1.0-SNAPSHOT.jar server primes.yaml
 
 ## Using the service
 
@@ -48,7 +48,7 @@ Using your browser run any of the following services:
 
 ## Building the project
 To build, using Java 8 JDK and Maven 3, run the following command from the sample folder (containing the pom.xml file):
-> 	mvn package
+    mvn package
 
 ## Code Structure:
 
